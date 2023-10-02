@@ -22,11 +22,6 @@ class Retangulos{
 			somaP+=r.perimetro();
 			maior = quantidade[0];
 			quantidade[i]=(int)r.area();
-
-
-
-
-			
 		}
 		for(int i = 0; i < quantidade.length; i++){
 			if(quantidade[i] >= maior){
